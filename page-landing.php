@@ -49,8 +49,8 @@ Template Name: Landing Page
 			<div class="row">
 				<form method="post" accept-charset="iso-8859-1" action="http://www.aweber.com/scripts/addlead.pl"  >
 					
-					<input type="hidden" name="meta_web_form_id" value="1103263349" />
-					<input type="hidden" name="listname" value="awlist3698594" />
+					<input type="hidden" name="meta_web_form_id" value="##" />
+					<input type="hidden" name="listname" value="##" />
 					<input type="hidden" name="redirect" value="http://www.aweber.com/thankyou.htm?m=default" id="redirect_a1515f6aa1edcbb5aa2a8da6dbb804ae" />
 					<input type="hidden" name="meta_adtracking" value="Inside_Guide_Web_Site_Design" />
 					<input type="hidden" name="meta_message" value="1" />
