@@ -1,5 +1,7 @@
 /*
-* ADAPTED FROM SKELETON.CSS
+**** Created by Laurence Bradford, 
+**** ADAPTED FROM SKELETON.CSS
+
 * Skeleton V2.0.1
 * Copyright 2014, Dave Gamache
 * www.getskeleton.com
@@ -20,6 +22,7 @@
 - Spacing
 - Utilities
 - Media Queries
+- Custom Styling
 */
 
 
@@ -294,9 +297,26 @@ body {
     ), url("macbook.jpg") no-repeat bottom right;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333;
+  border-bottom: 1px solid;
+ -webkit-transition: all 100ms ease-in-out;
+ -moz-transition: all 100ms ease-in-out;
+ -ms-transition: all 100ms ease-in-out;
+ -o-transition: all 100ms ease-in-out;
+ transition: all 100ms ease-in-out;
+
+}
+
 .small {
   font-size: 1.2rem;
 }
+
 
 .highlight {
   background-color: rgba(99, 249, 147, 0.70);
@@ -317,4 +337,30 @@ body {
   }
 }
   
+.row.share > div  {
+  margin-top: 3em;
+}
+
+.btn-twitter {
+  background-color: #4099FF;
+  color: #fff;
+  height: auto;
+  margin-right: 5%;
+}
+
+.btn-facebook {
+  background-color: #3B5998;
+  color: #fff;
+  height: auto;
+}  
+
+.btn-twitter:hover,
+.btn-facebook:hover {
+  color: #fff;
+}
+
+.btn-twitter:focus,
+.btn-facebook:focus {
+  color: #fff;
+}
   
